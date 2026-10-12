@@ -86,14 +86,14 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp LC(UP_ARROW) DOWN_ARROW>;
         };
 
         FUNCTION {
             bindings = <
 &trans     &kp LG(LS(TAB))  &trans     &kp LG(TAB)  &trans                              &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
 &kp LC(A)  &kp LC(S)        &kp LC(D)  &kp LC(F)    &kp LC(SPACE)  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)    &kp LC(SPACE)  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)    &sk LA(TAB)    &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
 &trans     &trans           &trans     &trans       &trans         &trans      &trans   &trans                          &kp F12
             >;
         };
