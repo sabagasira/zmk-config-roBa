@@ -58,7 +58,7 @@
 
         single_quate {
             bindings = <&kp SQT>;
-            key-positions = <32 8 9>;
+            key-positions = <8 9>;
         };
     };
 
