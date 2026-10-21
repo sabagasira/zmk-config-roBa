@@ -46,16 +46,6 @@
             bindings = <&mkp MB4>;
             key-positions = <18 19>;
         };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        single_quate {
-            bindings = <&kp SQT>;
-            key-positions = <8 9>;
-        };
     };
 
     macros {
