@@ -34,17 +34,17 @@
 
         tab {
             bindings = <&mkp MB3>;
-            key-positions = <11 12>;
+            key-positions = <19 19 20>;
         };
 
         shift_tab {
             bindings = <&mkp MB5>;
-            key-positions = <12 13>;
+            key-positions = <20 21>;
         };
 
         muhennkann {
             bindings = <&mkp MB4>;
-            key-positions = <11 10>;
+            key-positions = <18 19>;
         };
 
         double_quotation {
