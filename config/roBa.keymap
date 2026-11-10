@@ -4,6 +4,9 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 70
+#include <dt-bindings/zmk/input_transform.h>
+#include <input/processors.dtsi>
+
 
 &mt {
     flavor = "balanced";
@@ -13,7 +16,8 @@
 &trackball {
     //automouse-layer = <4>;
 
-    scroll-layers = <5>;
+    scroll-layers = <3>;
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 
     // arrows {
     //     layers = <3>;
